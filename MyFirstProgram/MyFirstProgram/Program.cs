@@ -66,9 +66,32 @@ namespace ConsoleApp1
             double a = 3.14;
             int b = Convert.ToInt32(a);
             Console.WriteLine(a);
-            Console.WriteLine(b);
 
-            Console.WriteLine(b.GetType()); // to see data type.
+            int c = 123;
+            double d = Convert.ToDouble(c) + 0.1;
+            Console.WriteLine(d);
+
+            int e = 321;
+            String f = Convert.ToString(e);
+            Console.WriteLine(f);
+
+            String g = "$";
+            char h = Convert.ToChar(g);
+            Console.WriteLine(h);
+
+            String i = "true";
+            bool j = Convert.ToBoolean(i);
+            Console.WriteLine(j);
+
+            Console.WriteLine(b.GetType());
+            Console.WriteLine(d.GetType());
+            Console.WriteLine(f.GetType());
+            Console.WriteLine(h.GetType());
+            Console.WriteLine(j.GetType());
+
+            //Console.WriteLine(b);
+
+            //Console.WriteLine(b.GetType()); // to see data type.
 
             Console.ReadKey();
         }
