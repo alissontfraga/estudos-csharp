@@ -19,8 +19,8 @@ namespace mathClass
             //double d = Math.Round(x);   //arredondar 
             //double e = Math.Ceiling(x); //arredondar pra cima
             //double f = Math.Floor(x);    //arredondar pra baixo
-            double g = Math.Max(x, y);     // acha o maior número entre os dois
-            double h = Math.Min(x, y);    //acha o menor número entre os dois
+            //double g = Math.Max(x, y);     // acha o maior número entre os dois
+            //double h = Math.Min(x, y);    //acha o menor número entre os dois
 
             Console.WriteLine(h);
 
